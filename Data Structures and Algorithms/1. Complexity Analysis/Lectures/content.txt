@@ -1,0 +1,36 @@
+1. What is Time Complexity
+Time complexity represents how the runtime of an algorithm grows with the input size. It helps evaluate the efficiency of an algorithm. In interviews and competitive programming, understanding time complexity ensures your solutions run within time limits.
+
+2. What is Space Complexity
+Space complexity measures the amount of memory an algorithm uses relative to the input size. It is crucial for optimizing resource usage, especially in environments with limited memory. In interviews, demonstrating efficient space usage can set you apart from other candidates.
+
+3. Big O Notation
+Big O notation is a mathematical representation of an algorithm's time or space complexity. It describes the upper bound of an algorithm's growth rate, allowing you to compare different algorithms. In interviews, using Big O notation helps you communicate your solution's efficiency clearly and concisely.
+
+4. Common Time Complexities
+- O(1): Constant time complexity, where the algorithm's runtime does not depend on the input size.
+- O(log n): Logarithmic time complexity, where the algorithm's runtime grows logarithmically with the input size.
+- O(n): Linear time complexity, where the algorithm's runtime grows linearly with the input size.
+- O(n log n): Linearithmic time complexity, common in efficient sorting algorithms.
+- O(n^2): Quadratic time complexity, where the algorithm's runtime grows quadratically with the input size, often seen in nested loops.
+- O(2^n): Exponential time complexity, where the algorithm's runtime doubles with each additional input element, common in recursive algorithms.
+- O(n!): Factorial time complexity, where the algorithm's runtime grows factorially with the input size, often seen in combinatorial problems.
+
+5. Analyzing Time Complexity
+To analyze time complexity, follow these steps:
+- Identify the basic operations in your algorithm (e.g., comparisons, assignments).
+- Count how many times these operations are executed as a function of the input size.
+- Express the count using Big O notation, focusing on the highest-order term and ignoring constant factors.
+
+6. Analyzing Space Complexity
+To analyze space complexity, follow these steps:
+- Identify the data structures used in your algorithm (e.g., arrays, linked lists, hash tables).
+- Determine the amount of memory each data structure requires based on the input size.
+- Express the total memory usage as a function of the input size using Big O notation, focusing on the highest-order term and ignoring constant factors.
+
+7. Practical Tips for Interviews
+- Understand the problem requirements and constraints before analyzing time and space complexity.
+- Clearly communicate your thought process when analyzing complexity.
+- Use Big O notation to express your findings concisely.
+- Be prepared to discuss trade-offs between time and space complexity.
+- Practice analyzing the complexity of common algorithms and data structures.
