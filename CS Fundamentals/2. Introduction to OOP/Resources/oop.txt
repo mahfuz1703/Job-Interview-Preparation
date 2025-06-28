@@ -1,0 +1,5 @@
+Concept - https://blog.algomaster.io/p/basic-oop-concepts-explained-with-code
+
+Article in CSharp - https://medium.com/@egwudaujenyuojo/mastering-object-oriented-programming-in-c-a-beginners-guide-59e06225b2f3
+
+Video - https://youtu.be/EazrhHMySQw?si=SL5WrmAKiIW9F2ru
