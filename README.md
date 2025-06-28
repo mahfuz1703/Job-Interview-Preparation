@@ -6,8 +6,8 @@ This repository is a collection of resources and practice problems to help you p
 
 The repository is organized into the following sections:
 
-*   **CS Fundamentals:** This section covers the basics of C# and Object-Oriented Programming (OOP).
-*   **Data Structures and Algorithms:** This section provides lectures and practice problems for various data structures and algorithms, implemented in C++.
+*   **CS Fundamentals:** This section covers the fundamentals of computer science topics like, OOP, DBMS, Operating system, System design, Networking etc.
+*   **Data Structures and Algorithms:** This section provides lectures, resources, and practice problems of all DSA topics
 
 ## Contribution Process
 
