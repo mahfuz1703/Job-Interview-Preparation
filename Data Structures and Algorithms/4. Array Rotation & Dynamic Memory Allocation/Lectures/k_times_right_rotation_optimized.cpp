@@ -19,7 +19,7 @@ int main(){
     k %= n; // To handle cases where k >= n
 
     reverse(arr, 0, n-k-1); // Reverse first n-k elements
-    reverse(arr, k-1, n-1); // Reverse last k elements
+    reverse(arr, n-k, n-1); // Reverse last k elements
     reverse(arr, 0, n-1); // Reverse the entire array
 
     for(int i = 0; i < n; i++){
