@@ -1,3 +1,10 @@
-0 0 0 0 
-0 4 5 0 
-0 3 1 0 
+2 5 4 2 4 6 
+2 5 4 2 4 6 6 7 
+2 5 4 2 4 6 6 
+Size of vector: 7
+Capacity of vector: 12
+Size after clear: 0
+Capacity after clear: 12
+Vector is empty
+Index out of bounds
+
