@@ -3,6 +3,7 @@
         "ostream": "cpp",
         "source_location": "cpp",
         "stacktrace": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "format": "cpp"
     }
 }
