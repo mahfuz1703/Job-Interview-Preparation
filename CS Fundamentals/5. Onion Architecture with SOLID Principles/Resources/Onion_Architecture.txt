@@ -1,0 +1,24 @@
+- What is Onion Architecture?
+    Onion Architecture is a software design pattern that structures applications into concentric layers, with the core business logic at the center and outer layers representing infrastructure and user interface concerns.
+
+- Key Principles of Onion Architecture:
+    1. **Layered Structure:**: The architecture is organized into layers, with the core domain logic at the center and outer layers handling infrastructure, UI, and external services. 
+    2. **Inversion of Control**: Dependencies point inwards, meaning outer layers rely on interfaces defined in inner layers, not concrete implementations.
+    3. **Separation of Concerns**: Each layer has a specific responsibility, reducing complexity and promoting modularity.
+    4. **Testability**: The separation of concerns allows for easier unit testing of the core domain logic without needing to mock external dependencies.
+    5. **Maintainability**: Changes in one layer are less likely to affect other layers, making maintenance and evolution easier.
+
+- Layers in Onion Architecture:
+    1. **Core Layer (Domain Layer)**: Contains the business logic, domain entities, and domain services. This layer is independent of any external frameworks or technologies.
+    2. **Application Layer**: Contains application-specific logic, such as use cases and application services. It orchestrates the flow of data between the core layer and outer layers.
+    3. **Infrastructure Layer**: Contains implementations of interfaces defined in the core and application layers, such as data access, external services, and third-party libraries. This layer interacts with databases, file systems, and other external resources.
+    4. **Presentation Layer (UI Layer)**: Contains the user interface components, such as web pages, APIs, or desktop applications. It interacts with the application layer to present data to users and handle user input.
+
+- Benefits of Onion Architecture:
+    1. **Decoupling**: The architecture promotes decoupling of business logic from infrastructure concerns, allowing for easier changes and replacements of technologies.
+    2. **Flexibility**: The layered approach allows for flexibility in choosing technologies for each layer without affecting the core business logic.
+    3. **Scalability**: The architecture can scale as the application grows, with each layer being able to evolve independently.
+    4. **Reusability**: Core domain logic can be reused across different applications or contexts without being tied to specific technologies or frameworks.
+    5. **Clarity**: The clear separation of layers helps developers understand the structure and responsibilities of the application, making it easier to navigate and maintain.
+    6. **Testability**: The architecture supports unit testing of the core logic without needing to mock external dependencies, leading to more reliable tests.
+    7. **Maintainability**: The separation of concerns and clear boundaries between layers make it easier to maintain and evolve the application over time.
