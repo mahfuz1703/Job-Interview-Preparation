@@ -1,0 +1,27 @@
+✅ What is a Design Pattern?
+A design pattern is a reusable solution to a common problem in software design. It’s not code, but a template or best practice that can be used in different situations.
+
+📌 Think of it like a blueprint for solving a problem the right way — just like engineers follow building designs when constructing a house.
+
+❓ Why Learn Design Patterns?
+- To write better, cleaner, and reusable code.
+- To solve common problems faster using tried and tested solutions.
+- To communicate easily with other developers using a shared vocabulary (e.g., “This uses the Singleton pattern.”).
+- To improve your system design and interview skills.
+- 💡 Example: If someone tells you, "We used the Factory pattern," you both understand the structure without reading all the code.
+
+✅ Benefits of Using Design Patterns:
+Design patterns help to:
+- Improve code readability and maintainability
+- Facilitate communication among developers
+- Provide proven solutions to common problems
+- Reduce the risk of errors and bugs
+
+🧱 Types of Design Patterns?
+1. Creational Patterns: Deal with object creation mechanisms.
+   - Example: Singleton, Factory Method, Abstract Factory, Builder, Prototype
+2. Structural Patterns: Deal with object composition.
+   - Example: Adapter, Composite, Decorator, Facade, Proxy, Bridge, Flyweight
+3. Behavioral Patterns: Deal with object interaction and responsibility.
+   - Example: Observer, Strategy, Command, State, Template Method, Chain of Responsibility, Mediator, Memento, Visitor, Iterator
+
