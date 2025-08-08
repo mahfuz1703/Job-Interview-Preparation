@@ -1,0 +1,8 @@
+# What is Factory Method Pattern?
+- The Factory Method pattern defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created. It promotes loose coupling by eliminating the need to bind application-specific classes into your code.
+
+# Why Use Factory Method Pattern?
+- To create objects without specifying the exact class of object that will be created.
+- To allow a class to defer instantiation to subclasses.
+- To promote code reusability and flexibility.
+- To encapsulate object creation logic, making it easier to manage and extend.

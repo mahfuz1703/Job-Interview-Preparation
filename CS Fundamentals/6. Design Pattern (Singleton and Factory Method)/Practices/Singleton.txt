@@ -1,0 +1,9 @@
+# What is Singleton Pattern?
+- The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. It is often used for managing shared resources, such as database connections or configuration settings.
+
+# Why Use Singleton Pattern?
+- To control access to a shared resource.
+- To ensure that only one instance of a class exists throughout the application.
+- To provide a global point of access to that instance.
+- To reduce memory footprint by avoiding multiple instances of the same class.
+- To simplify the management of shared resources.
