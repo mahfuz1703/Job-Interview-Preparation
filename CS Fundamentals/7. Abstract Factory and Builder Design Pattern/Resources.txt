@@ -1,0 +1,2 @@
+Abstract Factory - https://medium.com/@kalanamalshan98/abstract-factory-design-pattern-the-ultimate-guide-for-beginners-4b0f97694b00
+Builder - https://medium.com/@kalanamalshan98/mastering-the-builder-design-pattern-build-objects-like-a-pro-0b8b36d10383
